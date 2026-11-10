@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Корзина — ТАУ</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="cart">
+  <div id="site-header"></div>
+  <main id="main" class="section">
+    <div class="section-head"><h2>Корзина</h2></div>
+    <p class="notice" style="margin-bottom:24px">Демо-версия: заказ не оплачивается и не отправляется</p>
+    <div id="view" aria-live="polite"><p class="loading">Загрузка…</p></div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>
